@@ -1,10 +1,10 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — try_lektor</title>
+<title>{% block title %}Welcome{% endblock %} — Blog</title>
 <body>
   <header>
-    <h1>try_lektor</h1>
+    <h1>First Blog Lektor</h1>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
@@ -12,7 +12,7 @@
         {% for href, title in [
           ['/blog', 'Blog'],
           ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['/about', 'About me']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
@@ -24,6 +24,8 @@
     {% block body %}{% endblock %}
   </div>
   <footer>
-    &copy; Copyright 2016 by Paola.
+    &copy; Copyright 2016 by PKpacheco.
   </footer>
 </body>
+
+

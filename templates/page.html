@@ -1,7 +1,8 @@
+<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
   <h2>{{ this.title }}</h2>
   {{ this.body }}
-  {% if this.author %} <hr><p> Written by {{ this.author }} {% endif %}
+  {% if this.author %} <hr><p> Written by PKpacheco{{ this.author }} {% endif %}
 {% endblock %}
