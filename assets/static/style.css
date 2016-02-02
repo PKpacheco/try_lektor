@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lobster Two', cursive;
+    font-family: "Lucida Console", Monaco, monospace 
     margin: 50px 25px;
 }
 
@@ -8,6 +8,7 @@ a {
 }
 
 a:hover {
+    font-family: 'Lobster Two', cursive;
     color: #931199;
 }
 
@@ -23,6 +24,12 @@ header h1 {
     margin: 0;
     font-weight: normal;
     font-size: 42px;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer{
+    font-family: 'Lobster Two', cursive;
+
 }
 
 header nav ul {
